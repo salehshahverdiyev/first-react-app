@@ -1,0 +1,134 @@
+/*Reset CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style*/
+
+@font-face {
+    font-family: Jost;
+    src: url(../JOST/Jost-Italic-VariableFont_wght.ttf);
+    src: url(../JOST/Jost-VariableFont_wght.ttf);
+}
+
+
+body {
+    background: #F7F8FD;
+    font-family: Jost;
+}
+
+#container {
+    position: relative;
+    top:78px ;
+    left:165px ;
+    border-radius: 10px;
+    background: #373F68;
+    width: 1110px;
+    height: 113px;
+    flex-shrink: 0;
+}
+
+#container > img {
+    position:absolute ;
+    top: 33px;
+    left:32.33px ;
+    stroke-width: 2px;
+    stroke: #CDD2EE;
+    transform: rotate(90deg);
+    width: 8px;
+    height: 4px;
+}
+
+#container > a {
+    position: absolute;
+    top:27px ;
+    left:52px ;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#container > p {
+    position: absolute;
+    top: 51px;
+    left: 32px ;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.333px;
+
+}
+
+#container > button {
+    position: absolute;
+    top: 35px ;
+    right: 40px;
+    width: 158px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #AD1FEA;
+    border: 0;
+
+    color: #F2F4FE;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+#container > button:hover {
+    background-color: #C75AF6;
+    color: #F2F4FE;
+    
+
+}

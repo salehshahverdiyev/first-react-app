@@ -1,0 +1,347 @@
+/*Reset CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Style CSS*/
+@font-face {
+    font-family:Jost;
+    src: url(../Jost/Jost-Italic-VariableFont_wght.ttf);
+    src: url(../Jost/Jost-VariableFont_wght.ttf);
+}
+
+body {
+    padding: 92px 450px 187px 450px;
+    background-color:#F7F8FD;
+}
+
+header {
+    height: 20px;
+    
+}
+
+header > div {
+    width: 540px ;
+    
+    
+}
+
+header > div > img {
+    width: 8px;
+    height: 4px;
+    stroke-width: 2px;
+    stroke: #4661E6;
+}
+
+header > div > a {
+    display: inline;
+    color: #647196;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#empty {
+    width: 100%;
+    height: 80px;
+}
+
+
+
+main > #container {
+    position: relative;
+    width: 540px;
+    height: 657px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    
+    
+}
+
+main > #img {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+
+}
+
+
+#container >  #img > img {
+    position: absolute;
+    top: -28px;
+    left: 42px;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    
+    
+}
+
+
+
+#cnf {
+    position: absolute;
+    top: 52px;
+    left: 42px;
+    color: #3A4374;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.333px;
+}
+
+#ft {
+    position: absolute;
+    top:127px ;
+    left:42px ;
+    color: #3A4374;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.194px;
+}
+
+#asd {
+    position: absolute;
+    top: 149px;
+    left: 42px;
+    color: #647196;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#g1 {
+    position: absolute;
+    top: 185px;
+    left: 42px;
+    width: 456px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: #F7F8FD;
+    border: 0;
+    outline: 0;
+}
+
+#g1:hover {
+    border-radius: 5px;
+    border: 1px solid #4661E6;
+    background: #F7F8FD;
+}
+
+#g1:focus {
+    border: 1px solid #4661E6;
+
+}
+
+
+#ctg {
+    position: absolute;
+    top:257px ;
+    left: 42px;
+    color: #3A4374;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.194px;
+}
+
+#cyf {
+    position: absolute;
+    top:279px ;
+    left: 42px;
+    color: #647196;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#g2 {
+    position: absolute;
+    top:315px ;
+    left: 42px;
+    width: 456px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: #F7F8FD;
+    border: 0;
+
+}
+
+#g2:hover {
+    border-radius: 5px;
+    border: 1px solid #4661E6;
+    background: #F7F8FD;
+}
+
+#g2:focus {
+    border: 1px solid #4661E6;
+
+}
+
+#category {
+    position: absolute;
+    top: 328px;
+    left: 66px;
+    color: #3A4374;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+#fd {
+    position: absolute;
+    top: 387px;
+    left: 42px;
+    color: #3A4374;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.194px;
+}
+
+#inc {
+    position: absolute;
+    top:409px ;
+    left: 42px;
+    color: #647196;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#g3 {
+    position: absolute;
+    top: 445px;
+    left: 42px;
+    width: 456px;
+    height: 96px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F7F8FD;
+    border: 0;
+    outline: 0;
+}
+
+#g3:hover {
+    border-radius: 5px;
+    border: 1px solid #4661E6;
+    background: #F7F8FD;
+}
+
+#g3:focus {
+    border: 1px solid #4661E6;
+
+}
+
+
+#cancel {
+    position: absolute;
+    top: 573px;
+    left: 245px;
+    width: 93px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 0;
+    background-color: #3A4374;
+    color: #F2F4FE;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#cancel:hover {
+    background-color: #656EA3;
+}
+
+#addfeedback {
+    position: absolute;
+    top: 573px;
+    left: 354px;
+    width: 144px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 0;
+    background-color: #AD1FEA;
+    color: #F2F4FE;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+#addfeedback:hover {
+    background-color: #C75AF6;
+}
